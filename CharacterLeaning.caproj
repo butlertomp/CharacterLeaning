@@ -1,0 +1,559 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2project>
+    <name>New project</name>
+    <description></description>
+    <version>1.0.0.0</version>
+    <author></author>
+    <author-email></author-email>
+    <author-website>http://</author-website>
+    <app-id>com.mycompany.myapp</app-id>
+    <unique-id>39239pecbwkl4</unique-id>
+    <saved-with-version>17800</saved-with-version>
+    <used-plugins>
+        <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
+        <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
+        <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="Text" version="1">Text</plugin>
+        <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
+    </used-plugins>
+    <used-behaviors>
+        <behavior author="Scirra" id="Physics" version="1">Physics</behavior>
+        <behavior author="Scirra" id="Platform" version="1">Platform</behavior>
+        <behavior author="Scirra" id="scrollto" version="1">Scroll To</behavior>
+        <behavior author="Scirra" id="solid" version="1">Solid</behavior>
+    </used-behaviors>
+    <used-effects />
+    <configurations>
+        <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
+    </configurations>
+    <window-size>
+        <width>800</width>
+        <height>400</height>
+    </window-size>
+    <pixel-rounding>0</pixel-rounding>
+    <preview-effects>1</preview-effects>
+    <use-loader-layout>0</use-loader-layout>
+    <configuration-settings>
+        <prop name="Clear background">Yes</prop>
+        <prop name="Downscaling">Medium quality</prop>
+        <prop name="Enable WebGL">On</prop>
+        <prop name="Fullscreen in browser">Letterbox scale</prop>
+        <prop name="Fullscreen scaling">High quality</prop>
+        <prop name="Loader style">Progress bar &amp; logo</prop>
+        <prop name="Orientations">Any</prop>
+        <prop name="Pause on unfocus">No</prop>
+        <prop name="Physics engine">Box2D web</prop>
+        <prop name="Preload sounds">Yes</prop>
+        <prop name="Preview browser">(default)</prop>
+        <prop name="Sampling">Linear</prop>
+        <prop name="Use high-DPI display">Yes</prop>
+    </configuration-settings>
+    <object-folder expanded="1">
+        <object-type name="TiledBackground" sid="1549940020032393">
+            <plugin id="TiledBg" />
+            <texture original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\castleCenter.png" />
+        </object-type>
+        <object-type name="Tile" sid="3197279791680683">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="5112209927894698">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder expanded="1">
+                <animation framecount="172" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="7424775050081071" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\box.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\boxAlt.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\boxCoin.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\boxCoin_disabled.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\boxCoinAlt.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\boxCoinAlt_disabled.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\boxEmpty.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\boxExplosive.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\boxExplosive_disabled.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\boxExplosiveAlt.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\boxItem.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\boxItem_disabled.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\boxItemAlt.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\boxItemAlt_disabled.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\boxWarning.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\brickWall.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\bridge.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\bridgeLogs.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\castle.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\castleCenter.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\castleCenter_rounded.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\castleCliffLeft.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\castleCliffLeftAlt.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\castleCliffRight.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\castleCliffRightAlt.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\castleHalf.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\castleHalfLeft.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\castleHalfMid.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\castleHalfRight.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\castleHillLeft.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\castleHillLeft2.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\castleHillRight.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\castleHillRight2.png" />
+                    <frame duration="1" hotspotX="0.6" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\castleLedgeLeft.png" />
+                    <frame duration="1" hotspotX="0.6" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\castleLedgeRight.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\castleLeft.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\castleMid.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\castleRight.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\dirt.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\dirtCenter.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\dirtCenter_rounded.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\dirtCliffLeft.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\dirtCliffLeftAlt.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\dirtCliffRight.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\dirtCliffRightAlt.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\dirtHalf.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\dirtHalfLeft.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\dirtHalfMid.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\dirtHalfRight.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\dirtHillLeft.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\dirtHillLeft2.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\dirtHillRight.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\dirtHillRight2.png" />
+                    <frame duration="1" hotspotX="0.6" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\dirtLedgeLeft.png" />
+                    <frame duration="1" hotspotX="0.6" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\dirtLedgeRight.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\dirtLeft.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\dirtMid.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\dirtRight.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\door_closedMid.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\door_closedTop.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\door_openMid.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\door_openTop.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\fence.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\fenceBroken.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\grass.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\grassCenter.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\grassCenter_rounded.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\grassCliffLeft.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\grassCliffLeftAlt.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\grassCliffRight.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\grassCliffRightAlt.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\grassHalf.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\grassHalfLeft.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\grassHalfMid.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\grassHalfRight.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\grassHillLeft.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\grassHillLeft2.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\grassHillRight.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\grassHillRight2.png" />
+                    <frame duration="1" hotspotX="0.6" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\grassLedgeLeft.png" />
+                    <frame duration="1" hotspotX="0.6" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\grassLedgeRight.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\grassLeft.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\grassMid.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\grassRight.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\hill_large.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\hill_largeAlt.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\hill_small.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\hill_smallAlt.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\ladder_mid.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\ladder_top.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\liquidLava.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\liquidLavaTop.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\liquidLavaTop_mid.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\liquidWater.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\liquidWaterTop.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\liquidWaterTop_mid.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\lock_blue.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\lock_green.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\lock_red.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\lock_yellow.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\rockHillLeft.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\rockHillRight.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\ropeAttached.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\ropeHorizontal.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\ropeVertical.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\sand.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\sandCenter.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\sandCenter_rounded.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\sandCliffLeft.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\sandCliffLeftAlt.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\sandCliffRight.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\sandCliffRightAlt.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\sandHalf.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\sandHalfLeft.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\sandHalfMid.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\sandHalfRight.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\sandHillLeft.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\sandHillLeft2.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\sandHillRight.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\sandHillRight2.png" />
+                    <frame duration="1" hotspotX="0.6" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\sandLedgeLeft.png" />
+                    <frame duration="1" hotspotX="0.6" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\sandLedgeRight.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\sandLeft.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\sandMid.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\sandRight.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\sign.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\signExit.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\signLeft.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\signRight.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\snow.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\snowCenter.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\snowCenter_rounded.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\snowCliffLeft.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\snowCliffLeftAlt.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\snowCliffRight.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\snowCliffRightAlt.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\snowHalf.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\snowHalfLeft.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\snowHalfMid.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\snowHalfRight.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\snowHillLeft.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\snowHillLeft2.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\snowHillRight.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\snowHillRight2.png" />
+                    <frame duration="1" hotspotX="0.6" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\snowLedgeLeft.png" />
+                    <frame duration="1" hotspotX="0.6" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\snowLedgeRight.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\snowLeft.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\snowMid.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\snowRight.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\stone.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\stoneCenter.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\stoneCenter_rounded.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\stoneCliffLeft.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\stoneCliffLeftAlt.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\stoneCliffRight.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\stoneCliffRightAlt.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\stoneHalf.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\stoneHalfLeft.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\stoneHalfMid.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\stoneHalfRight.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\stoneHillLeft2.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\stoneHillRight2.png" />
+                    <frame duration="1" hotspotX="0.6" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\stoneLedgeLeft.png" />
+                    <frame duration="1" hotspotX="0.6" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\stoneLedgeRight.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\stoneLeft.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\stoneMid.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\stoneRight.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\stoneWall.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\tochLit.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\tochLit2.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\torch.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\window.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="wheel" sid="319643871859341">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Physics" sid="4730314294399148">
+                    <behavior id="Physics" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="7271770527567377" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="G:\Gams\GD1J01 Make a Game\Animations\Player\Default\000.png">
+                        <image-point name="Imagepoint 1" x="0.5" y="1" />
+                        <collision-poly>
+                            <point x="0.148437" y="0.171875" />
+                            <point x="0.278646" y="0.0598959" />
+                            <point x="0.492187" y="0.0234375" />
+                            <point x="0.713542" y="0.0703125" />
+                            <point x="0.877604" y="0.203125" />
+                            <point x="0.947266" y="0.332031" />
+                            <point x="0.962239" y="0.502604" />
+                            <point x="0.957682" y="0.688802" />
+                            <point x="0.875" y="0.802083" />
+                            <point x="0.713542" y="0.914713" />
+                            <point x="0.510417" y="0.94401" />
+                            <point x="0.320312" y="0.939453" />
+                            <point x="0.151042" y="0.825521" />
+                            <point x="0.0390625" y="0.673828" />
+                            <point x="0.0234375" y="0.490885" />
+                            <point x="0.046875" y="0.315755" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="PlayerBox" sid="221000057282538">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="ScrollTo" sid="7599346995372864">
+                    <behavior id="scrollto" />
+                </behavior-type>
+                <behavior-type name="Platform" sid="9951246019996336">
+                    <behavior id="Platform" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9818560157377682" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.513514" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Keyboard" sid="521501581038378">
+            <plugin id="Keyboard" />
+        </object-type>
+        <object-type name="seat" sid="9850752930709622">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Physics" sid="8177071328287301">
+                    <behavior id="Physics" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2688596658806021" speed="5">
+                    <frame duration="1" hotspotX="0" hotspotY="0.5">
+                        <image-point name="Imagepoint 1" x="1" y="0.5" />
+                        <collision-poly>
+                            <point x="1" y="0" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="0" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Tile2" sid="2440256147358258">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="710876446797602">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder expanded="1">
+                <animation framecount="172" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2245827385509999" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\box.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\boxAlt.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\boxCoin.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\boxCoin_disabled.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\boxCoinAlt.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\boxCoinAlt_disabled.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\boxEmpty.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\boxExplosive.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\boxExplosive_disabled.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\boxExplosiveAlt.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\boxItem.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\boxItem_disabled.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\boxItemAlt.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\boxItemAlt_disabled.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\boxWarning.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\brickWall.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\bridge.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\bridgeLogs.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\castle.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\castleCenter.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\castleCenter_rounded.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\castleCliffLeft.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\castleCliffLeftAlt.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\castleCliffRight.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\castleCliffRightAlt.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\castleHalf.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\castleHalfLeft.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\castleHalfMid.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\castleHalfRight.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\castleHillLeft.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\castleHillLeft2.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\castleHillRight.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\castleHillRight2.png" />
+                    <frame duration="1" hotspotX="0.6" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\castleLedgeLeft.png" />
+                    <frame duration="1" hotspotX="0.6" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\castleLedgeRight.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\castleLeft.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\castleMid.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\castleRight.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\dirt.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\dirtCenter.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\dirtCenter_rounded.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\dirtCliffLeft.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\dirtCliffLeftAlt.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\dirtCliffRight.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\dirtCliffRightAlt.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\dirtHalf.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\dirtHalfLeft.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\dirtHalfMid.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\dirtHalfRight.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\dirtHillLeft.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\dirtHillLeft2.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\dirtHillRight.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\dirtHillRight2.png" />
+                    <frame duration="1" hotspotX="0.6" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\dirtLedgeLeft.png" />
+                    <frame duration="1" hotspotX="0.6" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\dirtLedgeRight.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\dirtLeft.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\dirtMid.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\dirtRight.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\door_closedMid.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\door_closedTop.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\door_openMid.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\door_openTop.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\fence.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\fenceBroken.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\grass.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\grassCenter.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\grassCenter_rounded.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\grassCliffLeft.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\grassCliffLeftAlt.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\grassCliffRight.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\grassCliffRightAlt.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\grassHalf.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\grassHalfLeft.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\grassHalfMid.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\grassHalfRight.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\grassHillLeft.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\grassHillLeft2.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\grassHillRight.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\grassHillRight2.png" />
+                    <frame duration="1" hotspotX="0.6" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\grassLedgeLeft.png" />
+                    <frame duration="1" hotspotX="0.6" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\grassLedgeRight.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\grassLeft.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\grassMid.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\grassRight.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\hill_large.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\hill_largeAlt.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\hill_small.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\hill_smallAlt.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\ladder_mid.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\ladder_top.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\liquidLava.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\liquidLavaTop.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\liquidLavaTop_mid.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\liquidWater.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\liquidWaterTop.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\liquidWaterTop_mid.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\lock_blue.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\lock_green.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\lock_red.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\lock_yellow.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\rockHillLeft.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\rockHillRight.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\ropeAttached.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\ropeHorizontal.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\ropeVertical.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\sand.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\sandCenter.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\sandCenter_rounded.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\sandCliffLeft.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\sandCliffLeftAlt.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\sandCliffRight.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\sandCliffRightAlt.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\sandHalf.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\sandHalfLeft.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\sandHalfMid.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\sandHalfRight.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\sandHillLeft.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\sandHillLeft2.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\sandHillRight.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\sandHillRight2.png" />
+                    <frame duration="1" hotspotX="0.6" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\sandLedgeLeft.png" />
+                    <frame duration="1" hotspotX="0.6" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\sandLedgeRight.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\sandLeft.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\sandMid.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\sandRight.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\sign.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\signExit.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\signLeft.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\signRight.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\snow.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\snowCenter.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\snowCenter_rounded.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\snowCliffLeft.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\snowCliffLeftAlt.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\snowCliffRight.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\snowCliffRightAlt.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\snowHalf.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\snowHalfLeft.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\snowHalfMid.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\snowHalfRight.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\snowHillLeft.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\snowHillLeft2.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\snowHillRight.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\snowHillRight2.png" />
+                    <frame duration="1" hotspotX="0.6" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\snowLedgeLeft.png" />
+                    <frame duration="1" hotspotX="0.6" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\snowLedgeRight.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\snowLeft.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\snowMid.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\snowRight.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\stone.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\stoneCenter.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\stoneCenter_rounded.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\stoneCliffLeft.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\stoneCliffLeftAlt.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\stoneCliffRight.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\stoneCliffRightAlt.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\stoneHalf.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\stoneHalfLeft.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\stoneHalfMid.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\stoneHalfRight.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\stoneHillLeft2.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\stoneHillRight2.png" />
+                    <frame duration="1" hotspotX="0.6" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\stoneLedgeLeft.png" />
+                    <frame duration="1" hotspotX="0.6" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\stoneLedgeRight.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\stoneLeft.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\stoneMid.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\stoneRight.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\stoneWall.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\tochLit.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\tochLit2.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\torch.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Thomas.Butler\Desktop\Construct 2 Games\Free Bundle\Sprites\Platformer pack\Base pack\Tiles\window.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="LoseText" sid="9137496914714902">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Mouse" sid="1715956253365082">
+            <plugin id="Mouse" />
+        </object-type>
+        <object-type name="Seesaw" sid="9999419039037708">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Physics" sid="4110158164358927">
+                    <behavior id="Physics" />
+                </behavior-type>
+                <behavior-type name="Solid" sid="4361377586492266">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="3601950470460126" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.52">
+                        <image-point name="LeftImagePoint" x="0" y="0.52" />
+                        <image-point name="RightImagePoint" x="1" y="0.52" />
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="tilt" sid="5893705905521159">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Physics" sid="5119751746169533">
+                    <behavior id="Physics" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2456865228349753" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+    </object-folder>
+    <families />
+    <layout-folder expanded="1">
+        <layout>Layout 1.xml</layout>
+    </layout-folder>
+    <event-folder expanded="1">
+        <event-sheet>Event sheet 1.xml</event-sheet>
+    </event-folder>
+    <global-instances>
+        <global-instance type="Keyboard" uid="15" />
+        <global-instance type="Mouse" uid="26" />
+    </global-instances>
+    <sounds-folder expanded="1" />
+    <music-folder expanded="1" />
+    <files-folder expanded="1">
+        <file-folder expanded="0" name="Icons">
+            <file name="icon-16.png" />
+            <file name="icon-32.png" />
+            <file name="icon-114.png" />
+            <file name="icon-128.png" />
+            <file name="icon-256.png" />
+            <file name="loading-logo.png" />
+        </file-folder>
+    </files-folder>
+</c2project>
